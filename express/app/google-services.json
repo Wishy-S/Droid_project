@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "994448523918",
+    "firebase_url": "https://express-24d70.firebaseio.com",
+    "project_id": "express-24d70",
+    "storage_bucket": "express-24d70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994448523918:android:14c9f4a2196c8b96dcffdf",
+        "android_client_info": {
+          "package_name": "com.example.express"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994448523918-drksv52eulbaiapgt5ban7eafi829j01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.express",
+            "certificate_hash": "fe84e1f4c21f5fda7d1a860d34faa33e8043d60b"
+          }
+        },
+        {
+          "client_id": "994448523918-8ff5386pepg0qvb01m21l3tqk5oiab6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.express",
+            "certificate_hash": "6d8b1b0a664e255f7b28637cb20a8b3df5cabaf0"
+          }
+        },
+        {
+          "client_id": "994448523918-lh1ear2vc2tl1c128kersv5j3illcdj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKqRuGoU-qpEATUoVSkCGOBXh5VswfOVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994448523918-lh1ear2vc2tl1c128kersv5j3illcdj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
