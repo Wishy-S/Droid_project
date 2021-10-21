@@ -3,7 +3,16 @@ This is a beginner level android project.
 
 ## How to run the project ? 
 Firstly you need to fork(using the fork button in the right up corner) this project and then clone it on your local machine and then open your Android Studio and then open the ***express directory*** in your Android Studio and then start building this project(it will take time depending on your net connection speed).
-- **Note**: For cloning you can use a terminal if you are on linux and terminal on windows just type 
+
+### **Note:**
+Make sure you have git installed on your machine before proceeding further.
+
+If you do not have git installed then follow this:
+> For Linux Machine you can go [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj2-vDDsdzzAhWRF3IKHcyjDXwQFnoECAIQAQ&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Fhow-to-install-git-on-ubuntu-20-04&usg=AOvVaw2coi3RXHxueoK07cyCByfN)<br>
+>For Windows Machine you can go [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj3jbaIstzzAhVMAXIKHX1lA7AQFnoECAMQAw&url=https%3A%2F%2Fphoenixnap.com%2Fkb%2Fhow-to-install-git-windows&usg=AOvVaw1B-XdGZUdkYsn-8T8zv0PC)
+
+
+For cloning you can use a terminal if you are on linux and terminal on windows just type 
 ```
 git clone https://github.com/YourGitUserID/Droid_project/
 ```
