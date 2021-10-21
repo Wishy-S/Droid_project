@@ -2,7 +2,7 @@
 A Shopkeeper utility android app. 
 
 ## How to run the project ? 
-Firstly you need to fork(using the fork button in the right up corner) this project and then clone it on your local machine and then open your Android Studio and then start building this project(it will take time depending on your net connection speed).
+Firstly you need to fork(using the fork button in the right up corner) this project and then clone it on your local machine and then open your Android Studio and then open the ***express directory*** in your Android Studio and then start building this project(it will take time depending on your net connection speed).
 - **Note**: For cloning you can use a terminal if you are on linux and terminal on windows just type 
 ```
 git clone https://github.com/YourGitUserID/Droid_project/
