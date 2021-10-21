@@ -9,6 +9,8 @@ git clone https://github.com/YourGitUserID/Droid_project/
 ```
 Alternative of cloning you can simply download the repo in zip format.
 
+## Contribution guidelines:
+For this you can read [this](https://github.com/Wishy-S/Droid_project/blob/exp/CONTRIBUTING.md)
 
 ### Below are some screenshots of the app :
 
