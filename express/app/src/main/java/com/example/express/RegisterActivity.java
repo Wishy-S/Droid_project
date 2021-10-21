@@ -22,6 +22,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
+import Droid_project.R;
+
 public class RegisterActivity extends AppCompatActivity {
 
     private Button CreateAccountButton;

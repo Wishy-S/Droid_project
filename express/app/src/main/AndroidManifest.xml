@@ -9,34 +9,35 @@
     <dist:module dist:instant="true" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/cart"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/cart"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        tools:replace="android:icon"
         >
 
         <activity
-            android:name=".Item_Analytics"
+            android:name="com.example.express.Item_Analytics"
             android:label="@string/title_activity_item__analytics"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.example.express.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProductDetailsActivity" />
-        <activity android:name=".Searchproductsactivity" />
+        <activity android:name="com.example.express.ProductDetailsActivity" />
+        <activity android:name="com.example.express.Searchproductsactivity" />
         <activity
-            android:name=".ShopKeeperDashBoardActivity"
+            android:name="com.example.express.ShopKeeperDashBoardActivity"
             android:label="@string/title_activity_shop_keeper_dash_board"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".loginActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="com.example.express.HomeActivity" />
+        <activity android:name="com.example.express.RegisterActivity" />
+        <activity android:name="com.example.express.loginActivity" />
+        <activity android:name="com.example.express.MainActivity"></activity>
     </application>
 
 </manifest>

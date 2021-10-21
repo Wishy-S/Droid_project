@@ -8,7 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.express.Interface.ItemClickListener;
-import com.example.express.R;
+
+import Droid_project.R;
 
 public class ProductViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {

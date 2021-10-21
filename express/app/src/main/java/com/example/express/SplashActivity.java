@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import Droid_project.R;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override

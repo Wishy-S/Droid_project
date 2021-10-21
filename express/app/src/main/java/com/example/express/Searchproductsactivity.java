@@ -21,6 +21,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
+import Droid_project.R;
+
 public class Searchproductsactivity extends AppCompatActivity {
     private Button SearchBtn;
     private EditText InputText;

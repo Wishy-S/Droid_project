@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import Droid_project.R;
 import io.paperdb.Paper;
 
 public class MainActivity extends AppCompatActivity {
