@@ -22,5 +22,17 @@ Alternative of cloning you can simply download the repo in zip format.
 For this you can read [this](https://github.com/Wishy-S/Droid_project/blob/exp/CONTRIBUTING.md)
 
 ### Below are some screenshots of the app :
-
-<img src="Screenshot_2020-10-16-02-08-31-693_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-08-34-693_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-08-38-507_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-11-19-057_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-11-24-229_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-11-30-616_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-11-41-196_com.example.express.jpg" width="20%" height = "30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Screenshot_2020-10-16-02-12-04-884_com.example.express.jpg" width="20%" height = "30%">
+<table>
+  <tr align = "center">
+   <td><img src="Screenshot_2020-10-16-02-08-31-693_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-08-34-693_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-08-38-507_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-11-19-057_com.example.express.jpg" width="70%" height = "100%"></td>
+ </tr>
+ <tr align = "center">
+   <td><img src="Screenshot_2020-10-16-02-11-24-229_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-11-30-616_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-11-41-196_com.example.express.jpg" width="70%" height = "100%"></td>
+   <td><img src="Screenshot_2020-10-16-02-12-04-884_com.example.express.jpg" width="70%" height = "100%"></td>
+ </tr>
+ </table>
