@@ -4,7 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/inputs.xml" value="0.29814814814814816" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_product_details.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18229166666666666" />
+        <entry key="app/src/main/res/layout/activity_searchproductsactivity.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_shop_keeper_dash_board.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/app_bar_shop_keeper_dash_board.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/content_item__analytics.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/content_shop_keeper_dash_board.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_share.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_tools.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/nav_header_shop_keeper_dash_board.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/products_items_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/activity_shop_keeper_dash_board_drawer.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/menu_item__analytics.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/shop_keeper_dash_board.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>
