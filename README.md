@@ -4,6 +4,9 @@ This is a beginner level android project.
 ## How to run the project ? 
 Firstly you need to fork(using the fork button in the right up corner) this project and then clone it on your local machine and then open your Android Studio and then open the ***express directory*** in your Android Studio and then start building this project(it will take time depending on your net connection speed).
 
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Wishy-S/Droid_project)
+
 ### **Note:**
 Make sure you have git installed on your machine before proceeding further.
 
