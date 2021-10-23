@@ -7143,9 +7143,6 @@ public class Password
     }
     public boolean check(String password)
     {
-        if (Arrays.binarySearch(list, password)==-1) {
-            return true;
-        }
-        return false;
+       return !Arrays.asList(list).contains(password);
     }
 }
