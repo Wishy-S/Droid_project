@@ -23,6 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 
 import Droid_project.R;
+import password.Password;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -30,7 +31,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText InputName, InputPassword, InputPhonenumber;
 
     private ProgressDialog loadingBar;
-
+    private Password checker=new Password();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
     private  void CreateAccount()
@@ -72,12 +74,24 @@ public class RegisterActivity extends AppCompatActivity {
         }
         else
         {
-            loadingBar.setTitle("Create Account");
-            loadingBar.setMessage("Please wait,while we are Checking the Credentials");
-            loadingBar.setCanceledOnTouchOutside(false);
-            loadingBar.show();
 
-            ValidatelephoneNumber(name,phone,password);
+
+            if(checker.check(password))
+            {
+                loadingBar.setTitle("Create Account");
+                loadingBar.setMessage("Please wait,while we are Checking the Credentials");
+                loadingBar.setCanceledOnTouchOutside(false);
+                loadingBar.show();
+
+                ValidatelephoneNumber(name,phone,password);
+
+            }
+            else
+            {
+                Toast.makeText(this, "Please Enter a strong  Password ", Toast.LENGTH_SHORT).show();
+            }
+
+
 
         }
 
