@@ -23,6 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 
 import Droid_project.R;
+import password.Password;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -30,7 +31,8 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText InputName, InputPassword, InputPhonenumber;
 
     private ProgressDialog loadingBar;
-
+    private Password checker=new Password();
+    private int attempts =3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +52,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
     private  void CreateAccount()
@@ -72,12 +75,43 @@ public class RegisterActivity extends AppCompatActivity {
         }
         else
         {
-            loadingBar.setTitle("Create Account");
-            loadingBar.setMessage("Please wait,while we are Checking the Credentials");
-            loadingBar.setCanceledOnTouchOutside(false);
-            loadingBar.show();
 
-            ValidatelephoneNumber(name,phone,password);
+
+            if(checker.check(password)==true)
+            {
+                loadingBar.setTitle("Create Account");
+                loadingBar.setMessage("Please wait,while we are Checking the Credentials");
+                loadingBar.setCanceledOnTouchOutside(false);
+                loadingBar.show();
+
+                ValidatelephoneNumber(name,phone,password);
+
+            }
+            else
+            {
+                switch (attempts)
+                {
+                    case 3:
+                        Toast.makeText(this, "Please Avoid using common password ", Toast.LENGTH_SHORT).show();
+                        attempts--;
+                        break;
+                    case 2:
+                        Toast.makeText(this, "Please Enter a strong  Password ", Toast.LENGTH_SHORT).show();
+                        attempts--;
+                        break;
+                    case 1:
+                        Toast.makeText(this, "Use Strong password like #Likehood@1986_234  ", Toast.LENGTH_SHORT).show();
+                        attempts--;
+                        break;
+                    default:
+                        Toast.makeText(this, "Please Enter a strong  Password ", Toast.LENGTH_SHORT).show();
+
+
+                }
+
+            }
+
+
 
         }
 
