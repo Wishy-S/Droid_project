@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 
 
-import Droid_project.R;
+import com.example.express.R;
 
 public class SlideshowFragment extends Fragment {
 

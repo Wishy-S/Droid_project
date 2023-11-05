@@ -33,7 +33,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
-import Droid_project.R;
+import com.example.express.R;
 
 public class ProductDetailsActivity extends AppCompatActivity {
     private Button  Delbtn,AddBtn,ProdStat;

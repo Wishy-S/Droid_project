@@ -40,7 +40,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 
-import Droid_project.R;
+import com.example.express.R;
 
 public class HomeActivity extends AppCompatActivity  {
 
