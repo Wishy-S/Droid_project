@@ -33,7 +33,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
     private ImageView imageView;
     private static Uri alarmSound;
     private ElegantNumberButton elegantNumberButton;
-    private TextView productPrice,productDescriptioin,productName,productQuantity;
+    private TextView productPrice,productDescription,productName,productQuantity;
     public String productID ="";
 
 
@@ -49,7 +49,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
         ProdStat=(Button)findViewById(R.id.stats);
         //add=(FloatingActionButton)findViewById(R.id.addbtn);
         productPrice=(TextView )findViewById(R.id.productdet);
-        productDescriptioin=(TextView )findViewById(R.id.proddes);
+        productDescription=(TextView )findViewById(R.id.proddes);
         productName=(TextView )findViewById(R.id.product_price);
         productQuantity =(TextView)findViewById(R.id.product_quantity);
         elegantNumberButton =(ElegantNumberButton)findViewById(R.id.elegant);
@@ -193,7 +193,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
                     productName.setText(items.getPname());
                     productPrice.setText(items.getPrice());
                     productQuantity.setText(items.getQuantity());
-                    productDescriptioin.setText(items.getDescription());
+                    productDescription.setText(items.getDescription());
                     Picasso.get().load(items.getImage()).into(imageView);
 
                 }
