@@ -2,18 +2,12 @@ package com.example.express;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
 
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -33,16 +27,11 @@ import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
-import com.example.express.R;
-
 public class ProductDetailsActivity extends AppCompatActivity {
     private Button  Delbtn,AddBtn,ProdStat;
     Vibrator vibrator;
     private ImageView imageView;
-
     private static Uri alarmSound;
-    private final long []pattern = {100,300,300,300};
-    //private FloatingActionButton add;
     private ElegantNumberButton elegantNumberButton;
     private TextView productPrice,productDescriptioin,productName,productQuantity;
     public String productID ="";
@@ -56,17 +45,17 @@ public class ProductDetailsActivity extends AppCompatActivity {
         vibrator= (Vibrator)getSystemService(VIBRATOR_SERVICE);
         imageView =(ImageView)findViewById(R.id.product_image_details);
 
-                Delbtn=(Button)findViewById(R.id.del_btn);
-                ProdStat=(Button)findViewById(R.id.stats);
+        Delbtn=(Button)findViewById(R.id.del_btn);
+        ProdStat=(Button)findViewById(R.id.stats);
         //add=(FloatingActionButton)findViewById(R.id.addbtn);
-                productPrice=(TextView )findViewById(R.id.productdet);
+        productPrice=(TextView )findViewById(R.id.productdet);
         productDescriptioin=(TextView )findViewById(R.id.proddes);
-                productName=(TextView )findViewById(R.id.product_price);
-                productQuantity =(TextView)findViewById(R.id.product_quantity);
-                elegantNumberButton =(ElegantNumberButton)findViewById(R.id.elegant);
-                AddBtn = (Button)findViewById(R.id.readd);
+        productName=(TextView )findViewById(R.id.product_price);
+        productQuantity =(TextView)findViewById(R.id.product_quantity);
+        elegantNumberButton =(ElegantNumberButton)findViewById(R.id.elegant);
+        AddBtn = (Button)findViewById(R.id.readd);
 
-                alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
 
 
@@ -126,13 +115,13 @@ public class ProductDetailsActivity extends AppCompatActivity {
                         {
                             Intent intent = new Intent(ProductDetailsActivity.this,ShopKeeperDashBoardActivity.class);
 
-                            Toast.makeText(ProductDetailsActivity.this, "Item has been Updated succesfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ProductDetailsActivity.this, "Item has been Updated successfully", Toast.LENGTH_SHORT).show();
                         }
                         else
                         {
 
 
-                            Toast.makeText(ProductDetailsActivity.this, "Oops!!! Some Network Erroe Might have Occured", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ProductDetailsActivity.this, "Oops!!! Some Network Error Might have Occurred", Toast.LENGTH_SHORT).show();
 
                         }
                     }
